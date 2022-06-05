@@ -1,0 +1,953 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Methods"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "no"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "25"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "60000"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Islam"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "6"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "8"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "23000"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "30000"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid10"
+    }, {
+      "@id" : "_:genid8"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "yes"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable"
+  } ]
+}, {
+  "@id" : "http://protege.sanford.edu/ontologies/2022/5/child-adoption-ontology.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#B-form_of_minor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#CNIC_of_parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Education_Record_of_minor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#legal_proof_of_relationship_with_minor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#2_methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopt_From",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptee_Parent_ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Age" : [ {
+    "@value" : "25"
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Income" : [ {
+    "@value" : "60000"
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Name" : [ {
+    "@value" : "\"Mr Ahmad\""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Profession" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion" : [ {
+    "@value" : "\"Islaam\""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Sect" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The ontology has to focus on to Legally adopt child, which has two methods, one is in which the children who will not be raised by their birth parents become legal members of another family and permanently transfer the rights to guardian, second method is appointment of a guardian when the marriage between husband and wife comes to an end means divorce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  }, {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Can_Be",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Categories",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name" : [ {
+    "@value" : "\"Mustafa\""
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Confirm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  }, {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Child_Adoption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A process include formal approval of acceptable parents  and their Eligibility Criteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Grant_Access",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Include",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontology can be useful to represent knowledge about the defined activities as main contents of specific life-events. Our approach consisted of mapping a set of activities contained in the specific life-event."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"
+  }, {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Must_Meet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Need",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Number_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Of_Adopting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Center_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Address_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  }, {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Income",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  }, {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Profession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  }, {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Sect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontology can be useful to represent knowledge about the defined activities as main contents of specific life-events."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Seperated_Parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#CNIC_of_parent" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#legal_proof_of_relationship_with_minor" : [ {
+    "@value" : "\"Biological Relation\""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Address_Location" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#proof_of_Marriage_Certificate" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#are",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#no_specific_law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#number_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#proof_of_Marriage_Certificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"
+  }, {
+    "@id" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+} ]

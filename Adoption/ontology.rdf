@@ -1,0 +1,1016 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://protege.sanford.edu/ontologies/2022/5/child-adoption-ontology.owl#"
+     xml:base="http://protege.sanford.edu/ontologies/2022/5/child-adoption-ontology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-36="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#"
+     xmlns:untitled-ontology-45="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#">
+    <owl:Ontology rdf:about="http://protege.sanford.edu/ontologies/2022/5/child-adoption-ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopt_From -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopt_From">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Can_Be -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Can_Be">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Categories -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Categories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Confirm -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Confirm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Child_Adoption -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Child_Adoption">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Grant_Access -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Grant_Access">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Has -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Has">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Include -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Include">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Must_Meet -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Must_Meet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Need -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Need">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Number_2 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Number_2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Of_Adopting -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Of_Adopting">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirment -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirments -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirments">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#are -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#are">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#has -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#no_specific_law -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#no_specific_law">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#number_1 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#number_1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#2_methods -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#2_methods">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#B-form_of_minor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#B-form_of_minor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#CNIC_of_parent -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#CNIC_of_parent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Education_Record_of_minor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Education_Record_of_minor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#legal_proof_of_relationship_with_minor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#legal_proof_of_relationship_with_minor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Methods -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Methods">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Methods"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoption_Process_Duration"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23000</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopton_Cost"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30000</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Age -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Gender -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable"/>
+                        <owl:hasValue>no</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Financiially_stable"/>
+                        <owl:hasValue>yes</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Nationality -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Nationality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Center_Location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Center_Location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Address_Location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Address_Location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Age -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Marriage_Years"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Income -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Income">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60000</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Profession -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Profession">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Religion"/>
+                <owl:hasValue>Islam</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Sect -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Parent_Sect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#proof_of_Marriage_Certificate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#proof_of_Marriage_Certificate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"/>
+        <rdfs:comment>The ontology has to focus on to Legally adopt child, which has two methods, one is in which the children who will not be raised by their birth parents become legal members of another family and permanently transfer the rights to guardian, second method is appointment of a guardian when the marriage between husband and wife comes to an end means divorce</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process"/>
+        <rdfs:comment>A process include formal approval of acceptable parents  and their Eligibility Criteria</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event">
+        <rdfs:comment>Ontology can be useful to represent knowledge about the defined activities as main contents of specific life-events. Our approach consisted of mapping a set of activities contained in the specific life-event.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event"/>
+        <rdfs:comment>Ontology can be useful to represent knowledge about the defined activities as main contents of specific life-events.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptee_Parent_ID -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptee_Parent_ID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents"/>
+        <untitled-ontology-45:Marriage_Years>3</untitled-ontology-45:Marriage_Years>
+        <untitled-ontology-45:Parent_Age>25</untitled-ontology-45:Parent_Age>
+        <untitled-ontology-45:Parent_Income>60000</untitled-ontology-45:Parent_Income>
+        <untitled-ontology-45:Parent_Name>&quot;Mr Ahmad&quot;</untitled-ontology-45:Parent_Name>
+        <untitled-ontology-45:Parent_Profession></untitled-ontology-45:Parent_Profession>
+        <untitled-ontology-45:Parent_Religion>&quot;Islaam&quot;</untitled-ontology-45:Parent_Religion>
+        <untitled-ontology-45:Parent_Sect></untitled-ontology-45:Parent_Sect>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_ID -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_ID">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Child_Name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-45:Child_Name>&quot;Mustafa&quot;</untitled-ontology-45:Child_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Seperated_Parent -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Seperated_Parent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced"/>
+        <untitled-ontology-36:CNIC_of_parent></untitled-ontology-36:CNIC_of_parent>
+        <untitled-ontology-36:legal_proof_of_relationship_with_minor>&quot;Biological Relation&quot;</untitled-ontology-36:legal_proof_of_relationship_with_minor>
+        <untitled-ontology-45:Parent_Address_Location></untitled-ontology-45:Parent_Address_Location>
+        <untitled-ontology-45:proof_of_Marriage_Certificate></untitled-ontology-45:proof_of_Marriage_Certificate>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

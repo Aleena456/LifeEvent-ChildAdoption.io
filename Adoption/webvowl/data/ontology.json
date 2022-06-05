@@ -1,0 +1,532 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "iri" : "http://protege.sanford.edu/ontologies/2022/5/child-adoption-ontology.owl"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Contract__File",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Social_Orphan",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Formal_Approval",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "3", "8", "9" ],
+    "id" : "4",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Approval",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphanage_Centres",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "11", "18" ],
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Edhi_centres",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "6" ],
+    "id" : "18",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_acceptable",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "20" ],
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Issuance",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "21",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Divorced",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "22",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Not_eligible",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "24" ],
+    "id" : "20",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#NonFinancially_Stable_Parents",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "24",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Publication",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "30",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Completely_Orphan",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "31",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Application",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "32",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Guardian_Court",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "29" ],
+    "id" : "28",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Document_Required",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "1",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#application",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "37",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Investigation",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "38",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adopting_a_child",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "39",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Orphan_Child",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "5", "31" ],
+    "id" : "6",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Priority_Files",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "42",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Evidence",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "43",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Certificate",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "subClasses" : [ "1", "13" ],
+    "id" : "14",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Single_Parents",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "51", "22" ],
+    "id" : "23",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Married_Couple",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "54",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Life_Event",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "7", "39" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Process",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "4" ],
+    "id" : "7",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Final_Order",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "id" : "56",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Adoptive_Parents",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "54" ],
+    "id" : "55",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Eligibility__Criteria",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "55", "23" ],
+    "id" : "50",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Procedure",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "37", "10", "38" ],
+    "id" : "11",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Unmarried",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "id" : "51",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Court",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "28" ],
+    "id" : "35",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Verification_Of_acceptable_Parents",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "50", "42" ],
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Guardianship_Approval",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "subClasses" : [ "14" ],
+    "id" : "29",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Procedure",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "instances" : 0,
+    "subClasses" : [ "56", "43", "30", "21", "32" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Methods",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "instances" : 0,
+    "subClasses" : [ "35", "16" ],
+    "id" : "17"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#Education_Record_of_minor",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Getting",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "14",
+    "domain" : "13",
+    "subproperty" : [ "15" ],
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#B-form_of_minor",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "range" : "26",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Confirm",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Grant_Access",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "14",
+    "domain" : "29",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#From",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "18",
+    "superproperty" : [ "46" ],
+    "domain" : "39",
+    "subproperty" : [ "47" ],
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#number_1",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "35",
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#legal_proof_of_relationship_with_minor",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "range" : "44",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#has",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "18",
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Need",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "4",
+    "domain" : "39",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36#CNIC_of_parent",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-36",
+    "range" : "57",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Requirment",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#Number_2",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "16",
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45#For_Child_Adoption",
+    "baseIri" : "http://www.semanticweb.org/multilaptop/ontologies/2022/5/untitled-ontology-45",
+    "range" : "28",
+    "domain" : "35",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  } ]
+}
